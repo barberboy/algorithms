@@ -37,3 +37,7 @@ function search_linear(array, item) {
   return false;
 }
 ```
+
+##TODOS
+
+Review implementation for Queue to make sure I conceptually understand it.
