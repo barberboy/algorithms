@@ -2,7 +2,7 @@
   "name": "algorithms",
   "version": "1.0.0",
   "description": "This repo contains code from the Frontend Masters _The Last Algorithms Course You'll Need_ course.",
-  "main": "index.js",
+  "main": "bubble-sort.ts",
   "scripts": {
     "test": "jest"
   },
