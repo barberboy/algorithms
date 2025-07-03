@@ -52,22 +52,4 @@ class Node<T> {
     }
 }
 
-const queue = new Queue<number>()
-queue.enqueue(1)
-console.log(queue)
-queue.enqueue(2)
-console.log(queue)
-queue.enqueue(3)
-console.log(queue)
-queue.enqueue(4)
-console.log(queue)
-
-console.log(Array.from(queue))
-
-console.log(queue.dequeue())
-
-console.log(queue)
-console.log(queue.peek())
-
-console.log(Array.from(queue))
-console.log(Array.from(queue))
+console.log(new Queue())

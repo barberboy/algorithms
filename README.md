@@ -38,6 +38,6 @@ function search_linear(array, item) {
 }
 ```
 
-##TODOS
+## TODOS
 
 Review implementation for Queue to make sure I conceptually understand it.
