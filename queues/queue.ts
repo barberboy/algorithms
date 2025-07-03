@@ -33,6 +33,14 @@ export default class Queue<T> {
     peek() : T | undefined {
         return this.head?.value
     }
+
+    * [Symbol.iterator]() {
+        let current = this.head;
+        while (current) {
+            yield current.value;
+            current = current.next;
+        }
+    }
 }
 
 class Node<T> {
@@ -54,7 +62,12 @@ console.log(queue)
 queue.enqueue(4)
 console.log(queue)
 
+console.log(Array.from(queue))
+
 console.log(queue.dequeue())
 
 console.log(queue)
 console.log(queue.peek())
+
+console.log(Array.from(queue))
+console.log(Array.from(queue))
