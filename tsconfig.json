@@ -1,4 +1,15 @@
 {
+  "compilerOptions": {
+    "strict": true,
     "esModuleInterop": true,
-    "allowImportingTsExtensions": true
+    "isolatedModules": true,
+    "types": ["node", "jest"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true
+   },
+  "verbatimModuleSyntax": true
 }

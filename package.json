@@ -8,10 +8,12 @@
   },
   "author": "Benjamin Barber",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
     "@types/jest": "^30.0.0",
     "jest": "^30.0.3",
-    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
